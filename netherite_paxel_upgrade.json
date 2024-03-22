@@ -1,0 +1,44 @@
+{
+    "type": "minecraft:smithing_transform",
+    "template": {
+        "item": "minecraft:netherite_ingot"
+    },
+    "base": {
+        "item": "minecraft:diamond_shovel"
+    },
+    "addition": {
+        "item": "minecraft:netherite_upgrade_smithing_template"
+    },
+    "result": {
+        "item": "minecraft:netherite_shovel",
+		"components": {
+			"rarity": "rare",
+			"tool": {
+				"rules": [
+				{
+					"blocks":"#mineable/pickaxe",
+					"speed": 9.0,
+					"correct_for_drops": true
+				},
+				{
+					"blocks":"#mineable/axe",
+					"speed": 9.0,
+					"correct_for_drops": true
+				},
+				{
+					"blocks":"#mineable/shovel",
+					"speed": 9.0,
+					"correct_for_drops": true
+				},
+				{
+					"blocks":"#mineable/hoe",
+					"speed": 9.0,
+					"correct_for_drops": true
+				}
+				]
+			},
+			"custom_name": "{'text':'Netherite Paxel','italic':false}",
+			"custom_model_data": 1
+		}
+    }
+}
